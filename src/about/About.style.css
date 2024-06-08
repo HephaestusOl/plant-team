@@ -1,0 +1,52 @@
+.about__company {
+  background-color: #212121;
+  margin-top: 175px;
+
+}
+
+.about__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  margin-bottom: 80px;
+}
+
+.features__block {
+  width: 100px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  border: 1px solid #B6FFBA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 10px 3px 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5),0px 0px 10px 0px rgb(182, 255, 186);
+  margin-bottom: 33px;
+}
+
+.features__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  
+  margin-bottom: 0;
+}
+
+.features__content {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}

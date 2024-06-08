@@ -1,0 +1,44 @@
+.vacancy__list {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vacancy__item {
+  border: 3px solid #999999;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 45px 30px 45px;
+  width: 745px;
+  margin-bottom: 45px;
+}
+
+.vacancy__name-container, .vacancy__price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom:20px;
+}
+
+.vacancy__price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom:0;
+}
+
+.vacancy__item-img, .vacancy__price-img {
+  margin-right: 15px;
+}
+
+.vacancy__name, .vacancy__price {
+  margin: 0;
+}
+
+.vacancy__price {
+  color: #21A038;
+}
